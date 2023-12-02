@@ -1,0 +1,38 @@
+.col{
+    margin-top:30px;
+}
+
+.box{
+    --bs-card-cap-bg:rgb(0, 132, 255);
+}
+
+#head{
+    color:black;
+    text-align: center;
+    font-size: 2rem;
+    font-style: bold;
+}
+
+button{
+    border-color: green;
+    color:green;
+    background-color: white;
+    margin-left:15px;
+    border-radius: 5px;
+    transition:.6s;
+}
+
+button:hover{
+    background-color: green;
+    color:white;
+}
+
+input{
+    border-radius: 5px;
+    border-color: white;
+    padding-left:10px;
+}
+
+input:hover{
+    box-shadow: 2px 2px 3px 3px black;
+}
